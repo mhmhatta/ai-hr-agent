@@ -1,0 +1,22 @@
+id_request,id_karyawan,tipe_cuti,tanggal_mulai,tanggal_selesai,status_request
+LR001,102,Tahunan,8/18/2025,8/20/2025,Disetujui
+LR002,109,Sakit,8/26/2025,8/26/2025,Disetujui
+LR003,106,Tahunan,9/15/2025,9/19/2025,Menunggu Persetujuan
+LR004,101,Tahunan,7/1/2025,7/5/2025,Ditolak
+LR005,112,Cuti Melahirkan,8/1/2025,10/31/2025,Disetujui
+LR006,104,Tahunan,9/2/2025,9/3/2025,Menunggu Persetujuan
+Rina,Sakit,Menunggu Persetujuan,,,
+Rina,Sakit,Menunggu Persetujuan,,,
+LR868,-,Sakit,10/3/2025,10/5/2025,Menunggu Persetujuan
+LR772,102,Sakit,10/3/2025,10/5/2025,Menunggu Persetujuan
+LR395,101,Sakit,9/15/2025,9/17/2025,Menunggu Persetujuan
+LR209,105,Tahunan,12/15/2025,12/17/2025,Menunggu Persetujuan
+LR296,105,Tahunan,12/15/2025,12/17/2025,Menunggu Persetujuan
+LR210,101,Sakit,9/15/2025,9/17/2025,Menunggu Persetujuan
+LR630,105,Tahunan,12/15/2025,12/17/2025,Menunggu Persetujuan
+LR808,105,Tahunan,2025-12-15,2025-12-17,Menunggu Persetujuan
+LR167,105,Tahunan,2025-12-15,2025-12-17,Menunggu Persetujuan
+LR633,105,Sakit,2025-12-15,2025-12-17,Menunggu Persetujuan
+LR747,111,Tahunan,12/15/2025,12/17/2025,Menunggu Persetujuan
+LR660,111,Tahunan,12/15/2025,12/17/2025,Menunggu Persetujuan
+LR305,101,Sakit,9/15/2025,9/17/2025,Menunggu Persetujuan
