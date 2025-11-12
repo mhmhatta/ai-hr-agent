@@ -1,4 +1,4 @@
-# Lawencon AI HR Agent 🤖
+# Lawencon AI HR Agent
 A lightweight HR assistant powered by Java, CSV-based data management, and LLM-like prompt handling.
 
 ## 🚀 Features
