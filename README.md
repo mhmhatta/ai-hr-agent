@@ -21,21 +21,21 @@ This layered approach makes the system both **data-driven** and **AI-aware**, de
 
 ---
 
-## 🧩 Features
+## Features
 
 | Feature | Description |
 |----------|--------------|
-| 🧍 **Manager Lookup** | Find an employee’s manager based on employee data. |
-| 📅 **Leave Balance Check** | Retrieve remaining leave days (by type or total). |
-| 📝 **Apply for Leave** | Record leave requests directly into `leave_requests.csv`. |
-| 🔍 **Leave Request Status** | Check approval status of the latest leave request. |
-| 🧾 **Expense Submission** | Submit simulated expense reports with category and amount. |
-| 👥 **Colleague Lookup** | Retrieve colleague job titles and emails from `employees.csv`. |
-| 🎯 **Performance Review Scheduler** | Schedule performance reviews and log them into `performance_reviews.csv`. |
+| **Manager Lookup** | Find an employee’s manager based on employee data. |
+|**Leave Balance Check** | Retrieve remaining leave days (by type or total). |
+|**Apply for Leave** | Record leave requests directly into `leave_requests.csv`. |
+|**Leave Request Status** | Check approval status of the latest leave request. |
+|**Expense Submission** | Submit simulated expense reports with category and amount. |
+|**Colleague Lookup** | Retrieve colleague job titles and emails from `employees.csv`. |
+|**Performance Review Scheduler** | Schedule performance reviews and log them into `performance_reviews.csv`. |
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 | Component | Description |
 |------------|-------------|
@@ -48,7 +48,7 @@ This layered approach makes the system both **data-driven** and **AI-aware**, de
 
 ---
 
-## 📂 Data Structure
+## Data Structure
 
 | File | Description |
 |------|--------------|
@@ -61,14 +61,23 @@ This layered approach makes the system both **data-driven** and **AI-aware**, de
 
 ## 🚀 How to Run
 
-### Prerequisites
-- **Java 19+**
+Make sure you have:
+- **Java JDK 19+**
 - **Apache Maven 3.9+**
-- **Gemini API key** set as an environment variable:  
-  ```bash
-  export GEMINI_API_KEY="your_api_key_here"
+- A valid **Gemini API Key** from [Google AI Studio](https://makersuite.google.com/app/apikey)
 
-### Run the Program
+Check installations:
+```bash
+java -version
+mvn -version
+```
+
+- Set your Gemini API key as an environment variable:
+```bash
+setx GEMINI_API_KEY "your_api_key_here"
+```
+
+- Build and Run
 ```bash
 mvn clean compile exec:java
 ```
